@@ -1,0 +1,93 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-size: 1500px;
+  font-family: "Vujahday Script", cursive;
+}
+
+#scroll {
+  color: blueviolet;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#heading {
+  color: blue;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#info {
+  text-align: center;
+  color: red;
+  width: 20rem;
+  margin-left: 20rem;
+  font-size: 2rem;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#ans {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#clear{
+  margin-left: 38rem;
+  color: yellow;
+  background-color: blue;
+  cursor: pointer;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  border-width: 0.1rem;
+  border-color: red;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#textbox {
+  width: 25rem;
+  text-align: center;
+  height: 1rem;
+  border-color: red;
+  border-radius: 3rem;
+  margin-left: 30rem;
+  height: 5rem;
+  background-color: lightblue;
+  background-image: url(convert_icon.jpg);
+  background-size: 7rem;
+  background-repeat: no-repeat;
+  background-position: 1rem 1px;
+  color: blue;
+  font-size: 15px;
+  text-shadow: 2px 2px greenyellow;
+}
+
+#btn {
+  margin-left: 35rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: grey;
+  color: blue;
+  border: red;
+  border-width: 2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+#last{
+  color: aqua;
+  text-align: center;
+  font-size: 2rem;
+}
